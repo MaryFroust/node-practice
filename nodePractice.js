@@ -14,10 +14,12 @@
 
  console.log(firstName.toUpperCase() + " " + lastName.toUpperCase() + " " + 'is trying to figure this out!') 
 
-  const str = ("mary froust")
-  const firstLetter = str[0]
-  const second = str[5]
-  console.log(firstLetter.toUpperCase() + '.' + " " + second.toUpperCase() + '.' + " " + 'is trying to figure this out!')
+  //const str = ("mary froust")
+  //const firstLetter = str[0]
+  //const second = str[5]
+  //console.log(firstLetter.toUpperCase() + '.' + " " + second.toUpperCase() + '.' + " " + 'is trying to figure this out!')
 
-  const email = ("mfroust.prsvr@gmail.com")
-  console.log(email)
+  console.log(firstName.toUpperCase()[0] + '.' + " " + lastName.toUpperCase()[0] + '.' + " " + 'is trying to figure this out!')
+
+  //const email = ("mfroust.prsvr@gmail.com")
+  console.log(firstName[0] + lastName + ".prsvr@gmail.com")
